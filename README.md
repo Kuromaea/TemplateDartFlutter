@@ -1,4 +1,4 @@
-# app_cupertino
+# flutter template for IOS & Android
 
 A new Flutter project.
 
