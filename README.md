@@ -1,4 +1,4 @@
-# flutter template for IOS & Android
+# Flutter Template for IOS & Android
 
 **Basic template for run iOS & Android devices simultaneously. ✨ Just for fun ✨**
 
