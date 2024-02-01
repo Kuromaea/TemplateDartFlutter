@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     // ! FOR TEST
     const platform = TargetPlatform.iOS;
     
-    //swith on sylmbol CUPERTINO with ! or MATERIAL with =
+    //swith on sylmbol CUPERTINO WIDGET with ! or MATERIAL WIDGET with =
     bool isIos = (platform == TargetPlatform.iOS);
     return isIos
         ? iosBase(platform: platform)
