@@ -4,7 +4,7 @@
 
 # Introduction 🎞
 
-<img width="1680" alt="template" src="https://github.com/Kuromaea/TemplateDartFlutter/assets/41955164/2432207e-5d5c-45e2-9e13-76bc63342fef">
+![template](https://github.com/Kuromaea/TemplateDartFlutter/assets/41955164/14af7a28-84f7-4931-b6c5-69a6c98c8695)
 
 ## 1. Technologies 💻
 
@@ -51,7 +51,8 @@ Here are the additions of different features to this project:
 
 1. Download the **TemplateDartFlutter.zip** folder from the project and unzip it.
 2. Open the **TemplateDartFlutter folder** with a code editor of your choice.
-3. Launch the file <code>/TemplateDartFlutter/lib/main.dart</code> in your browser locally (you can use extensions such as Live Server, Live Preview, etc.).
+3. Launch the file <code>/TemplateDartFlutter/lib/main.dart</code> in "Run and Debug" menu with you're initial emulators (you can use extensions such as Chrome, android, xcode, etc.).
+4. To modify the widgets, add your code to the <code>TemplateDartFlutter/lib/model/adaptive_pages.dart</code> page or cut according to the MVC architecture.
 
 ---
 
