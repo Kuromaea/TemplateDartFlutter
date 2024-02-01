@@ -53,6 +53,7 @@ Here are the additions of different features to this project:
 2. Open the **TemplateDartFlutter folder** with a code editor of your choice.
 3. Launch the file <code>/TemplateDartFlutter/lib/main.dart</code> in "Run and Debug" menu with you're initial emulators (you can use extensions such as Chrome, android, xcode, etc.).
 4. To modify the widgets, add your code to the <code>TemplateDartFlutter/lib/model/adaptive_pages.dart</code> page or cut according to the MVC architecture.
+5. Pour alterner sur le rendu iOS & Android dans votre émulateur: Il faut changer le symbole **!=** ou **==** dans la ligne de code **<code>bool isIos() => (widget.platform != TargetPlatform.iOS);</code>** entre **<code>widget.platform</code>** et **<code>TargetPlatform.iOS</code>**. Disponible sur la page **<code>/TemplateDartFlutter/lib/main.dart</code>**
 
 ---
 
