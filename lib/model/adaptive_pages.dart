@@ -36,7 +36,7 @@ class AdaptivePagesState extends State<AdaptivePages> {
     return AppBar(
       backgroundColor: Colors.white,
       title: const Text(
-        'TEMPLATE_ANDROID',
+        'templateAndroid',
         style: TextStyle(color: Colors.black),
       ),
     );
@@ -46,7 +46,7 @@ class AdaptivePagesState extends State<AdaptivePages> {
     return const CupertinoNavigationBar(
       backgroundColor: Colors.white,
       middle: Text(
-        'TEMPLATE_IOS',
+        'templateIos',
         style: TextStyle(color: Colors.black),
       ),
     );

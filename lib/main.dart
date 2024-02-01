@@ -10,11 +10,13 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
-    // ! FOR TEST
+    // for tests
+
     const platform = TargetPlatform.iOS;
     
-    //swith on sylmbol CUPERTINO WIDGET with ! or MATERIAL WIDGET with =
-    bool isIos = (platform == TargetPlatform.iOS);
+    // replace the symbol for using the CUPERTINO emulator with != or == for MATERIAL WIDGET
+
+    bool isIos = (platform != TargetPlatform.iOS);
     return isIos
         ? iosBase(platform: platform)
         : androidBase(platform: platform);
